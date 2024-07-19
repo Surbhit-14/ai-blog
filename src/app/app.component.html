@@ -1,0 +1,9 @@
+<app-header></app-header>
+<main class="blog-content">
+  <div class="heading">Topic : {{prompt[count].substring(78, 104)}}</div>
+  <hr>
+  <div class="content" *ngFor = "let item of blogData">{{item.mes}}</div>
+  <div class="name">--- by Surbhit Srivastava</div>
+  <!-- <button (click)="sendData(0)">clickk</button> -->
+</main>
+<app-footer></app-footer>

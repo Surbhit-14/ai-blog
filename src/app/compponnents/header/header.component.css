@@ -1,0 +1,41 @@
+.blog-header {
+    background: linear-gradient(135deg, #2ecc71, #ffffff);
+    color: #333;
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s ease-in-out;
+    z-index: 2;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blog-title {
+    font-size: 2.5rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.blog-nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.blog-nav ul li {
+    margin-right: 20px;
+}
+
+.blog-nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s ease-in-out;
+}
+
+.blog-nav ul li a:hover {
+    color: #2ecc71;
+}
