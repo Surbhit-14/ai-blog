@@ -31,7 +31,7 @@ export class AppComponent implements OnInit {
    })
   }
   ngOnInit(): void {
-    const obs$ = interval(86400000);
+    const obs$ = interval(10000);
     obs$.subscribe((d) => {
       console.log(d);
       this.sendData(d % this.lenght);

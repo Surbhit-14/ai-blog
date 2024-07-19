@@ -1,5 +1,6 @@
 .blog-content {
     padding: 20px;
+    padding-bottom: 40px;
     width: 80%;
     margin: 20px auto;
     background-color: #f9f9f9;
@@ -22,5 +23,5 @@
 }
 .name{
     float: right;
-    margin-top: 15px;
+    margin-top: 10px;
 }
