@@ -1,0 +1,79 @@
+
+
+@media (max-width: 767px) {
+    .blog-content {
+        padding: 20px;
+        padding-bottom: 40px;
+        width: 85%;
+        margin: 20px auto;
+        background-color: #b1f0b9;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        margin-top: 150px;
+        box-shadow: 0 0 20px rgba(19, 174, 55, 0.4);
+    }
+    .heading{
+        font-size: 30px;
+        font-weight: bold;
+        color: rgb(49, 20, 20);
+        text-align: left;
+        margin-bottom: 10px;
+        display: flex;
+    }
+    .butt{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    }
+}
+
+@media (min-width: 767px) {
+    .blog-content {
+        padding: 20px;
+        padding-bottom: 40px;
+        width: 75%;
+        margin: 20px auto;
+        background-color: #6fe17e;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        margin-top: 120px;
+        box-shadow: 0 0 120px rgba(20, 198, 58, 0.4);
+    }
+    .heading{
+        font-size: 30px;
+        font-weight: bold;
+        color: rgb(49, 20, 20);
+        text-align: left;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: space-between;
+        margin-right: 10px;
+    }
+    
+    .butt{
+        display: flex;
+        gap: 50px;
+    }
+}
+
+
+button{
+    width: 60px;
+    height: 40px;
+    border-radius: 10px;
+}
+.like, .dis{
+    display: flex;
+    gap: 15px;
+}
+.content{
+    margin-top: 10px;
+    color: rgb(50, 3, 3);
+    line-height: 1.3;
+    word-spacing: 8px;
+    font-size: 18px;
+}
+.name{
+    float: right;
+    margin-top: 10px;
+}

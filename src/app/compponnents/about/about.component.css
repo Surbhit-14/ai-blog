@@ -1,0 +1,18 @@
+.p{
+    max-width: 100vh;
+    margin: auto;
+    margin-top: 34vh;
+    margin-bottom: 22vh;
+    background: linear-gradient(to right, #7cfb8f, #0c7d40);
+    box-shadow: 0 0 20px rgba(41, 211, 22, 0.4);
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 20px;
+    line-height: 1.5;
+    word-spacing: 8px;
+}
+.p:hover{
+    border: 1px solid rgb(249, 246, 246);
+    box-shadow: 0 0 20px rgba(94, 255, 0, 0.4);
+    transition: 0.5s;
+}

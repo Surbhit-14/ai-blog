@@ -1,1 +1,11 @@
-<p>subscribe works!</p>
+<div class="con">
+    <div class="head">
+        <h2>Subscription</h2>
+    </div>
+    <div class="input">
+        <form>
+        <input type="email" [(ngModel)]="e" name=email placeholder="Enter Email">
+        <input class="btn" type="submit" (click)="start()" value="Submit">
+    </form>
+    </div>
+</div>

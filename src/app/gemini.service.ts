@@ -11,7 +11,7 @@ export class GeminiService {
   private text : string = '';
   private mess : BehaviorSubject<any> = new BehaviorSubject(null);
   constructor() {
-    this.gai = new GoogleGenerativeAI("AIzaSyASkv_R_LLjpwhjyvk1OcUdtw33ur-qriE");
+    this.gai = new GoogleGenerativeAI("");
   }
 
   async generateText(promt: string){

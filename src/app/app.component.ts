@@ -14,7 +14,7 @@ import { FooterComponent } from "./compponnents/footer/footer.component";
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
-export class AppComponent implements OnInit {
+export class AppComponent{
   title = 'AI-Blog-WS';
 
   count : number = 0;
@@ -27,17 +27,18 @@ export class AppComponent implements OnInit {
    this.geminiService.resend().subscribe((res) => {
     if(res){
      this.blogData.push(res);
+
     }
    })
   }
-  ngOnInit(): void {
-    const obs$ = interval(10000);
-    obs$.subscribe((d) => {
-      console.log(d);
-      this.sendData(d % this.lenght);
-      this.count = d;
-    })
-    }
+  // ngOnInit(): void {
+  //   const obs$ = interval(10000);
+  //   obs$.subscribe((d) => {
+  //     console.log(d);
+  //     this.sendData(d % this.lenght);
+  //     this.count = d;
+  //   })
+  //   }
     
     sendData(d: number){
     if(this.prompt[d]){

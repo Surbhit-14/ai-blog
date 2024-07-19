@@ -1,0 +1,23 @@
+.con{
+    margin-top: 180px;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(112, 251, 100);
+}
+.input form{
+    display: flex;
+    flex-direction: column;
+    height: 56vh;
+    align-items: center;
+}
+input{
+    height: 50px;
+    margin-top: 50px;
+    width: 50vh;
+    padding: 10px;
+    border: 1px solid green;
+    box-shadow: 0 0 20px rgba(13, 248, 99, 0.4);
+}
+.btn:active{
+    border: 2px solid green;
+}
