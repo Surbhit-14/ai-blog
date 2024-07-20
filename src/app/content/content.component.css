@@ -22,10 +22,10 @@
     }
     .butt{
         display: flex;
-        flex-direction: column;
         justify-content: center;
         gap: 25px;
         align-items: center;
+        margin-top: 20px;
     }
 }
 
