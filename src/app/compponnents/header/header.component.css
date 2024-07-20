@@ -46,6 +46,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
+    margin-left: 20PX;
 }
 .blog-nav ul li {
     margin-right: 20px;
