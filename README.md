@@ -1,4 +1,4 @@
-# AIBlogWS
+# AI-Blog
 
 AI Blog is a modern single-page application developed with Angular, designed to revolutionize the blogging experience. It leverages the Gemini API to automatically generate new blog posts daily, ensuring fresh and engaging content for readers. With intuitive like/dislike counters and a visually appealing user interface, AI Blog provides a seamless and interactive platform for exploring AI topics and trends.<br><br>
 
